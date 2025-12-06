@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        WORKER_INDEX: [0, 1, 2, 3, 4, 5]
+        WORKER_INDEX: [0, 1, 2, 3, 4]
 
     steps:
       - name: Checkout repo
